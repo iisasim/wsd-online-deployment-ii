@@ -1,5 +1,5 @@
-import { serve } from "https://deno.land/std/http/server.ts";
-import { renderFile } from "https://deno.land/x/eta/mod.ts";
+import { serve } from "./deps.js";
+import { renderFile } from "/deps.js";
 
 const PORT = 7777;
 
